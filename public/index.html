@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>beatHacker: Socket Synth</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+<!--<style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>-->
+  </head>
+  <body>
+      <header>
+          <div class="page-header">
+            <h1>beatHacker: Socket Synth</h1>
+          </div>
+      </header>
+    <div class="container">
+        <section class="main-content">
+            <div id="canvas-container"></div>
+            <div id="slider-container"></div>
+            <div id="directions">
+                <p>
+                    <strong>Notes Available:</strong> <br/>
+<!--                    Keypress A: C3, Keypress S: D3, Keypress D: E3,
+                    Keypress F: F3, Keypress G: G3, Keypress H: A3,
+                    Keypress J: B3, Keypress K: C4-->
+                    Press keys A - K on the keyboard to play the notes of
+                    the C major scale (C3 - C4)
+                    <br/>
+                    <strong>Wave Forms:</strong><br/>
+                    Press keys to change wave forms.<br/>
+                    Y: Sine, U: Square<br/>
+                    I: Triangle, O: Sawtooth
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+  </body>
+</html>

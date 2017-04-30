@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px;
+}
+
+.page-body {
+    position: relative;
+}
+
+section {
+    padding: 0 30px;
+}
+
+#directions {
+    position: relative;
+    float:right;
+}
+
+#main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
