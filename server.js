@@ -25,7 +25,6 @@ function serverConnection(socket) {
         };
 
         socket.broadcast.emit('sounds', emitObject);
-        console.log('waveform: ' + emitObject.waveValue);
         console.log('amplitude: ' + emitObject.ampValue);
         console.log('note frequency: ' + emitObject.freqValue);
     }
