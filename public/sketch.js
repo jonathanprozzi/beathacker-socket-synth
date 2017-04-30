@@ -30,7 +30,8 @@ var noteFreq = [130.81, 146.83, 164.81, 174.61, 196,
 var socket;
 
 function setup() {
-    socket = io.connect('http://127.0.0.1:3000');
+    // socket = io.connect('http://127.0.0.1:3000');
+    socket = io.connect('https://beathacker-socket-synth.herokuapp.com/:3000')
     socket.on('sounds', receivedSounds);
     socket.on('waves', receivedWaves);
 
